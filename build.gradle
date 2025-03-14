@@ -20,10 +20,12 @@ configurations {
 }
 
 repositories {
+	maven { url 'https://jitpack.io' }  // JitPack 추가
 	mavenCentral()
 }
 
 dependencies {
+	implementation 'com.github.iamport:iamport-rest-client-java:0.2.23'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'

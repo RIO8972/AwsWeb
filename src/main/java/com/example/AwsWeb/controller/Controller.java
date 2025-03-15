@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Controller {
     @GetMapping("/controller")
     public String contr(){
-        return "test";
+        return "test2";
     }
 }
